@@ -1,0 +1,16 @@
+.button {
+  color: black;
+  background: white;
+  height: 40px;
+  width: 65px;
+  border-radius: 5%;
+  margin: 5px;
+  border: none;
+  box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.2);
+}
+
+.button:hover {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  cursor: pointer;
+  /* border: 1px solid black; */
+}

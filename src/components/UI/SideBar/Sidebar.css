@@ -1,0 +1,43 @@
+@keyframes example {
+  0% {
+    width: 10px;
+  }
+
+  100% {
+    width: 150px;
+  }
+}
+
+.sideContainer {
+  width: 150px;
+  height: 50%;
+  z-index: 10;
+  background-color: #f4f6ff;
+  position: fixed;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  margin-top: 10px;
+
+  transition: 0.4s;
+  animation-name: example;
+  animation-duration: 0.4s;
+}
+
+.sideBody {
+  margin-top: 10px;
+}
+
+.item {
+  padding: 10px;
+}
+
+.sideHead {
+  display: flex;
+  justify-content: space-between;
+}
+
+.close {
+  padding: 10px 10px 0px 10px;
+  height: 20px;
+  width: 20px;
+  /* background: ; */
+}
